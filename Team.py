@@ -8,12 +8,12 @@ class Team:
         
 
     def reverse_input(self):          
-        return self.word[::-1]         
+        self.word = self.word[::-1]         
         pass
     
     def print_in_sentence(self):
         print 'Today I dreamt of',  self.word, 'while walking on the beach.'
-	  # TODO by person 2
+      # TODO by person 2
         pass
 
 t = Team()
