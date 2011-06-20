@@ -7,21 +7,14 @@ class Team:
         self.word = raw_input('Enter Name or Place: ')
         
 
-    def reverse_input(self):
-        """ Changes self.word to its reverse.  For example if
-        self.word is 'apples', then it becomes 'selppa'."""
-        self.word [::-1]
-#        reverseWord = ''
-#        for i in range(len(self.word)-1,-1,-1):
-#            reverseWord += self.word
-#        self.word = reverseWord          
-#        return self.word             
-#        
+    def reverse_input(self):          
+        self.word = self.word[::-1]         
+        pass
     
     def print_in_sentence(self):
         print 'Today I dreamt of',  self.word, 'while walking on the beach.'
-	  # TODO by person 2
-       
+      # TODO by person 2
+        pass
 
 t = Team()
 t.reverse_input()
