@@ -14,8 +14,8 @@ class Team:
         reverseWord = ''
         for i in range(len(self.word)-1,-1,-1):
             reverseWord += self.word
-        print reverseWord           
-            
+        self.word = reverseWord          
+        return self.word             
         pass
     
     def print_in_sentence(self):
